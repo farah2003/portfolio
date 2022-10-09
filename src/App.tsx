@@ -1,0 +1,18 @@
+import React from "react";
+import { NavBar,Header ,Skills,Footer} from './component/index.tsx';
+import './app.css'
+function App() {
+  return <div className='App'>
+    <div className="main">
+    <NavBar/>
+    <Header/>
+    </div>
+    <div className="content">
+    <Skills/>
+    <Footer/>
+    </div>
+    
+  </div>;
+}
+
+export default App;

@@ -1,0 +1,9 @@
+.main{
+    background: #D1CAEB;
+    background: -webkit-linear-gradient(to right, #D1CAEB, #ffff); 
+    background: linear-gradient(to right,#D1CAEB, #ffff);
+}
+.content{    
+    width: 100%;
+    height: 200px;
+}

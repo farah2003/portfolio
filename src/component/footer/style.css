@@ -1,0 +1,230 @@
+.footer{
+    width: 100%;
+    height: 850px;
+    background-color: #D1CAEB;
+}
+.contact-section,.social-media-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size:large;
+    color:#634db3;
+}
+.contact-section p,.social-media-container p{
+    margin-top: 0;
+    margin-bottom:3px;;
+    font-size: 18px;
+    color:#000000;
+}
+.contact-section p span,.social-media-container p span{
+    color:#634db3;
+}
+.contact-section h1,.social-media-container h1{
+    margin-bottom: 10px;
+    font-weight: 900px;
+    color: #000000;
+   
+}
+.contact-section h1 span{
+    color: #634db3;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 100%
+}
+.form input,.form textarea{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+.form textarea{
+    height: 200px;
+    outline: none;
+}
+.send-btn{
+    padding: .7rem 1rem; 
+    background-color: #634db3;
+    text-align: center;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: Raleway, serif;
+    margin-top: 20px;
+}
+.social-media-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media-container h1 span{
+    color: #634db3;   
+}
+.social-media-link,.social-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 35px;
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+
+}
+.social-media-link li{
+    background-color: #ffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5%;
+}
+.container-fluid{
+    margin-top: 30px;
+    display: flex;
+    height: 60px;
+    background-color:#5945a1;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 390px;
+}
+.first-container{
+   margin-left: 120px;
+   
+}
+.first-container h3,.secand-container h3{
+    font-weight:normal;
+}
+.box ul li{
+    position: relative;
+    display: inline-block;
+    Width:0;
+    height: 0;
+    margin-left: 0.9em;
+    margin-right: 1.2em;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.7em solid white;
+    border-left: 0.3em solid transparent;
+    list-style: none;
+    opacity: 0;
+    bottom: 0;
+    left: 10vw;
+    animation: animate 7s linear infinite;
+}
+.box ul li::before,
+.box ul li::after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    top:0.6em;
+    left: -1em;
+    border-right: 1em solid transparent;
+    border-bottom: 0.7em solid white;
+    border-left: 1em solid transparent;
+    transform: rotate(-35deg);
+}
+.box ul li::after{
+    transform: rotate(35deg);
+}
+.box ul li:nth-child(6){
+    left:10vw;
+    animation-delay: 3s;
+}
+.box ul li:nth-child(3){
+    left:20vw;
+    animation-delay: 4s;
+}
+.box ul li:nth-child(2){
+    left:30vw;
+    animation-delay: 3s;
+}
+
+
+.box ul li:nth-child(4){
+    left:40vw;
+    animation-delay: 4s;
+}
+.box ul li:nth-child(5){
+    left:50vw;
+    animation-delay: 3s;
+}
+
+.box ul li:nth-child(7){
+    left:60vw;
+    animation-delay: 4s;
+}
+.box ul li:nth-child(8){
+    left:70vw;
+    animation-delay: 6s;
+}
+
+.box ul li:nth-child(6){
+    left:1vw;
+    animation-delay: 3s;
+}
+
+.box ul li:nth-child(7){
+    left:15vw;
+    animation-delay: 5s;
+}
+.box ul li:nth-child(8){
+    left:25vw;
+    animation-delay: 3s;
+}
+.box ul li:nth-child(9){
+    left:35vw;
+    animation-delay: 4s;
+}
+
+.box ul li:nth-child(10){
+    left:45vw;
+    animation-delay: 6s;
+}
+.box ul li:nth-child(11){
+    left:55vw;
+    animation-delay: 1s;
+}
+
+.box ul li:nth-child(12){
+    left:65vw;
+    animation-delay: 2s;
+}
+
+.box ul li:nth-child(13){
+    left:2vw;
+    animation-delay: 1s;
+}
+
+@keyframes animate{
+    0%{
+        opacity: 1;
+        bottom: 0;
+       transform: scale(0) rotate(0);
+    }
+    100%{
+        opacity: 0;
+        bottom: 100vh;
+       transform: scale(5) rotate(360deg);
+    }
+}
