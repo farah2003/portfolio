@@ -1,7 +1,8 @@
 .main{
-    background: #D1CAEB;
+    /* background: #D1CAEB;
     background: -webkit-linear-gradient(to right, #D1CAEB, #ffff); 
-    background: linear-gradient(to right,#D1CAEB, #ffff);
+    background: linear-gradient(to right,#D1CAEB, #ffff); */
+    background: url('./assets/bg.jpg');
 }
 .content{    
     width: 100%;

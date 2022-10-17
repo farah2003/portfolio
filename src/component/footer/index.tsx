@@ -10,7 +10,7 @@ const footer =()=>{
     return (
         <div className='footer'>
             <div className='contact-section'>
-            <h1><span>GET IN</span> TOUCH</h1>
+            <h1>GET IN <span>TOUCH</span> </h1>
             <p>Feel free to send a <span>message</span> from me</p>
             <form className='form'>
                 <input type="text" placeholder="Your name..." required/>
@@ -19,7 +19,7 @@ const footer =()=>{
                 <button type='submit' className='send-btn'>Send Message</button>
             </form>
         </div>
-        <div className='social-media-container'>
+        {/* <div className='social-media-container'>
             <h1>FIND <span>ME</span> ON</h1>
             <p>Feel free to <span>connect</span> with me</p>
             <ul className='social-media-link'>
@@ -32,25 +32,31 @@ const footer =()=>{
                     <a><img src={twiiter} width="25" height="25" /></a>
                 </li>
             </ul>
-        </div>
-        <div className='box'>
+        </div> */}
+        {/* <div className='box'>
             <ul>
                 <li></li>
                 <li></li>
+                
                 <li></li>
                 <li></li>
+
                 <li></li>
                 <li></li>
+
                 <li></li>
                 <li></li>
+
                 <li></li>
                 <li></li>
+
                 <li></li>
                 <li></li>
+
                 <li></li>
                 <li></li>
             </ul>
-        </div>
+        </div> */}
         <div className='container-fluid'>
             <div className='first-container'>
                 <h3>Designed and Developed by Farah Shaqoura</h3>

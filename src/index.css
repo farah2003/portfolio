@@ -1,13 +1,23 @@
 body {
   margin: 0;
-  font-family: Raleway, serif;
+  font-family: Poppins, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
 }
 
 h1{
-  font-weight: 500;
+  
+font-weight :600px;
+font-size: 75px;
+line-height: 110px;
+color:rgb(25, 8, 45); 
+}
+p{
+  font-size: 22px;
+  font-weight: 500px;
+  line-height: 26px;
+  color:#3e3e3e ;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

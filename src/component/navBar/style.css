@@ -1,9 +1,11 @@
 .navBarContainer{
     display: flex;
     justify-content: space-between;
-    padding: 20px 300px;
+    padding: 25px 300px;
     align-items: center;
     align-items: center;
+    line-height: 23px;
+    color:rgb(25, 8, 45); 
 
 }
 .navBarContainer .logo a{
@@ -11,7 +13,7 @@
     font-weight: 800;
     cursor: pointer;
     text-decoration: none;
-    color:#000000;
+    color:rgb(25, 8, 45); 
 
 }
 .navBarContainer .logo a span{
@@ -19,18 +21,27 @@
 }
 .navBarContainer .elements{
     display: flex;
-    gap: 100px;
+    gap: 70px;
+}
+.navBarContainer .elements a:hover{
+    border-bottom: 5px solid #634db3;
+    border-radius: 3px;
 }
 .navBarContainer .elements a{
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     text-decoration: none;
     color:#000000;
+    padding: 3px;
  
 }
 .hire-button{
-    background-color:#634db3;
-    padding: 7px;
+    background-color:#6823b5;
+    padding: 11px;
     border-radius: 3px;
+}
+.logo{
+    display: flex;
+    align-items: center;
 }

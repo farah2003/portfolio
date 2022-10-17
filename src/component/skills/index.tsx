@@ -26,111 +26,37 @@ import github from '../../assets/github.png'
 import figma from '../../assets/figma.png'
 
 const Skills=()=>{
-return<div>
-    {/* <ul className="stars">
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  <li className="star"></li>
-  </ul>
-   */}
-  
+return<div className="skills-parent"> 
     <div  className="skills-section">
-    <h1>SKILLS</h1>     
+    <h1>Skills</h1>     
     </div>
 
   <div className="skills-container">
-  <div className="skill-section"> <img src={ts} style={{width:"130%",height:'90%'}}/></div>
-  <div className="skill-section"> <img src={js} style={{width:"130%",height:'90%'}}/></div>
-  <div className="skill-section"> <img src={html} style={{width:"90%",height:'90%'}}/></div>
-  <div className="skill-section"> <img src={css} style={{width:"75%"}}/></div>
+  <div className="skill-section"> <img src={ts} style={{width:"80%",height:'70%'}}/></div>
+  <div className="skill-section"> <img src={js} style={{width:"85%",height:'65%'}}/></div>
+  <div className="skill-section"> <img src={html} style={{width:"70%",height:'70%'}}/></div>
+  <div className="skill-section"> <img src={css} style={{width:"55%"}}/></div>
   <div className="skill-section">
-    <img src={reactImage} style={{width:"100%",height:'90%'}}/>
+    <img src={reactImage} style={{width:"80%",height:'70%'}}/>
   </div>
-  <div className="skill-section"> <img src={redux} style={{height:"95%",width:'95%'}}/></div>
-  <div className="skill-section"> <img src={firebaseImage} style={{height:"90%",width:'95%'}}/></div>
-  <div className="skill-section"> <img src={node} style={{height:"100%",width:'95%'}}/></div>
-  <div className="skill-section"> <img src={express} style={{width:"100%",height:'100%'}}/></div>
-  <div className="skill-section"> <img src={postgres} style={{width:"95%",height:'95%'}}/></div>
+  <div className="skill-section"> <img src={redux} style={{height:"70%",width:'70%'}}/></div>
+  <div className="skill-section"> <img src={firebaseImage} style={{height:"70%",width:'70%'}}/></div>
+  <div className="skill-section"> <img src={node} style={{height:"80%",width:'75%'}}/></div>
+  <div className="skill-section"> <img src={express} style={{width:"80%",height:'80%'}}/></div>
+  <div className="skill-section"> <img src={postgres} style={{width:"70%",height:'70%'}}/></div>
   <div className="skill-section"> <img src={mongo} style={{width:"95%",height:'95%'}}/></div>
-  <div className="skill-section"> <img src={jest} style={{width:"95%",height:'95%'}}/></div>
-  <div className="skill-section"> <img src={antd} style={{height:"85%",width:'85%'}}/></div>
-  <div className="skill-section"> <img src={materialUi} style={{height:"85%",width:'85%'}}/></div>
-  <div className="skill-section"> <img src={sass} style={{width:"75%"}}/></div>
-  <div className="skill-section"> <img src={ghost} style={{height:"70%",width:'70%'}}/></div>
-  <div className="skill-section"> <img src={linux} style={{width:"85%",height:'85%'}}/></div>
-  <div className="skill-section"> <img src={vscode} style={{width:"85%",height:'85%'}}/></div>
-  <div className="skill-section"> <img src={github} style={{width:"100%",height:'100%'}}/></div>
-  <div className="skill-section"> <img src={swagger} style={{width:"95%",height:'95%'}}/></div>
-  <div className="skill-section"> <img src={postman} style={{width:"75%"}}/></div>
-  <div className="skill-section"> <img src={heroku} style={{height:"85%",width:'85%'}}/></div>
-  <div className="skill-section"> <img src={netlify} style={{height:"90%",width:'95%'}}/></div>
+  <div className="skill-section"> <img src={jest} style={{width:"70%",height:'70%'}}/></div>
+  <div className="skill-section"> <img src={antd} style={{height:"65%",width:'65%'}}/></div>
+  <div className="skill-section"> <img src={materialUi} style={{height:"65%",width:'65%'}}/></div>
+  <div className="skill-section"> <img src={sass} style={{width:"55%"}}/></div>
+  <div className="skill-section"> <img src={ghost} style={{height:"50%",width:'50%'}}/></div>
+  <div className="skill-section"> <img src={linux} style={{width:"65%",height:'60%'}}/></div>
+  <div className="skill-section"> <img src={vscode} style={{width:"60%",height:'65%'}}/></div>
+  <div className="skill-section"> <img src={github} style={{width:"80%",height:'80%'}}/></div>
+  <div className="skill-section"> <img src={swagger} style={{width:"75%",height:'75%'}}/></div>
+  <div className="skill-section"> <img src={postman} style={{width:"55%"}}/></div>
+  <div className="skill-section"> <img src={heroku} style={{height:"65%",width:'65%'}}/></div>
+  <div className="skill-section"> <img src={netlify} style={{height:"70%",width:'75%'}}/></div>
 
   
   </div>
@@ -138,10 +64,10 @@ return<div>
     <h1>Tools I use </h1>     
     </div> */}
 
-  <div className="skills-container tools-container">   
+  {/* <div className="skills-container tools-container">   
   
 
-  </div>
+  </div> */}
 
 
   

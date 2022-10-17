@@ -1,20 +1,73 @@
 .Header{
     display: flex;
-    padding: 100px 300px  0  300px;
-    justify-content: space-between;
+    padding: 100px 0  190px  300px;
+    gap: 212px;
 }
-.Header .information{
-    margin-top: 120px;
-    font-size: 18px;
-    color:#000000;
-    
-}
+
 .Header .information strong{
     color:#634db3
 }
 .Header .information .info{
-    margin-top: 60px;
+    margin-top: 70px;
     font-size: 14px;
     color:#000000;
 
 }
+.Header .information .info h1{
+    margin-bottom: 20px;
+}
+.Header .information  p{
+    margin-top: 0;
+    
+
+}
+.main-bg{
+    background: url('../../assets//mainbg.png');
+    background-repeat: no-repeat;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 10%;
+    left:15%;
+
+  }
+  .image2 {
+    position: absolute;
+    top: -10%;
+    left: 0;
+  }
+  .btns{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+ 
+  }
+  .btns .hire{
+    text-decoration: none;
+    background-color:rgba(103, 34, 181, 0.85) ;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Jost, sans-serif;
+    font-size: 22px;
+    font-weight: 900px;
+    padding: 15px 30px;
+    border-radius: 9px;
+  }
+  
+  .btns .download{
+    text-decoration: none;
+    color:rgba(103, 34, 181, 0.85) ;
+    cursor: pointer;
+    font-family: Jost, sans-serif;
+    font-size: 22px;
+    font-weight: 900px;
+    padding: 15px 25px;
+    border-radius: 9px;
+    border: 1px solid rgba(103, 34, 181, 0.85) ;
+  }
